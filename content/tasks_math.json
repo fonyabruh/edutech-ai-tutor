@@ -1,0 +1,395 @@
+[
+  {
+    "topic_codifier_code": "mat.1.1",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Вычислите: $\\sqrt{49} + 2^3$",
+    "answer": "15",
+    "solution_md": "**Шаг 1:** $\\sqrt{49} = 7$ (так как $7^2 = 49$)\n\n**Шаг 2:** $2^3 = 8$\n\n**Шаг 3:** $7 + 8 = 15$"
+  },
+  {
+    "topic_codifier_code": "mat.1.1",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Вычислите: $3{,}5 \\cdot 4 - 1{,}5$",
+    "answer": "12.5",
+    "solution_md": "**Шаг 1:** $3{,}5 \\cdot 4 = 14$\n\n**Шаг 2:** $14 - 1{,}5 = 12{,}5$"
+  },
+  {
+    "topic_codifier_code": "mat.1.1",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "Найдите значение выражения $\\dfrac{3}{4} + \\dfrac{1}{6}$. Запишите ответ в виде десятичной дроби.",
+    "answer": "0.9166666",
+    "solution_md": "**Шаг 1:** Приводим к общему знаменателю 12:\n$$\\frac{3}{4} = \\frac{9}{12}, \\quad \\frac{1}{6} = \\frac{2}{12}$$\n\n**Шаг 2:** $\\frac{9}{12} + \\frac{2}{12} = \\frac{11}{12} \\approx 0{,}9167$"
+  },
+  {
+    "topic_codifier_code": "mat.1.1",
+    "difficulty": 2,
+    "type": "multi_choice",
+    "statement_md": "Чему равно значение выражения $(-3)^2 - 2^3$?",
+    "options": "[\"17\", \"1\", \"-1\", \"7\"]",
+    "answer": "1",
+    "solution_md": "**Шаг 1:** $(-3)^2 = 9$ (квадрат отрицательного числа — положительный)\n\n**Шаг 2:** $2^3 = 8$\n\n**Шаг 3:** $9 - 8 = 1$"
+  },
+  {
+    "topic_codifier_code": "mat.1.1",
+    "difficulty": 1,
+    "type": "short_answer",
+    "statement_md": "Запишите в виде десятичной дроби: $\\dfrac{3}{8}$",
+    "answer": "0.375",
+    "solution_md": "Делим числитель на знаменатель: $3 \\div 8 = 0{,}375$"
+  },
+  {
+    "topic_codifier_code": "mat.1.1",
+    "difficulty": 3,
+    "type": "numeric",
+    "statement_md": "Найдите значение выражения $\\dfrac{\\sqrt{144} - 2^2}{4}$",
+    "answer": "2",
+    "solution_md": "**Шаг 1:** $\\sqrt{144} = 12$\n\n**Шаг 2:** $2^2 = 4$\n\n**Шаг 3:** $12 - 4 = 8$\n\n**Шаг 4:** $8 \\div 4 = 2$"
+  },
+  {
+    "topic_codifier_code": "mat.1.2",
+    "difficulty": 1,
+    "type": "multi_choice",
+    "statement_md": "Какое тождество является разностью квадратов?",
+    "options": "[\"$a^2 + 2ab + b^2$\", \"$a^2 - b^2$\", \"$a^3 - b^3$\", \"$(a-b)^2$\"]",
+    "answer": "$a^2 - b^2$",
+    "solution_md": "Формула разности квадратов: $a^2 - b^2 = (a+b)(a-b)$.\n\nОстальные варианты:\n- $a^2 + 2ab + b^2 = (a+b)^2$ — квадрат суммы\n- $(a-b)^2 = a^2 - 2ab + b^2$ — квадрат разности\n- $a^3 - b^3$ — разность кубов"
+  },
+  {
+    "topic_codifier_code": "mat.1.2",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "Вычислите $a^2 - 2ab + b^2$ при $a = 7$, $b = 3$.",
+    "answer": "16",
+    "solution_md": "**Способ 1 (формула):** $a^2 - 2ab + b^2 = (a-b)^2$\n\n$(7 - 3)^2 = 4^2 = 16$\n\n**Способ 2 (подстановка):**\n$49 - 2 \\cdot 7 \\cdot 3 + 9 = 49 - 42 + 9 = 16$"
+  },
+  {
+    "topic_codifier_code": "mat.1.2",
+    "difficulty": 3,
+    "type": "numeric",
+    "statement_md": "Упростите выражение $\\dfrac{x^2 - 9}{x + 3}$ и найдите его значение при $x = 6$.",
+    "answer": "3",
+    "solution_md": "**Шаг 1:** Разложим числитель: $x^2 - 9 = (x+3)(x-3)$\n\n**Шаг 2:** Сокращаем дробь (при $x \\neq -3$):\n$$\\frac{(x+3)(x-3)}{x+3} = x - 3$$\n\n**Шаг 3:** При $x = 6$: $6 - 3 = 3$"
+  },
+  {
+    "topic_codifier_code": "mat.1.2",
+    "difficulty": 2,
+    "type": "short_answer",
+    "statement_md": "Раскройте скобки и упростите: $(x + 4)^2 - (x - 4)^2$",
+    "answer": "16x",
+    "solution_md": "$(x+4)^2 = x^2 + 8x + 16$\n\n$(x-4)^2 = x^2 - 8x + 16$\n\n$(x^2 + 8x + 16) - (x^2 - 8x + 16) = 16x$"
+  },
+  {
+    "topic_codifier_code": "mat.1.2",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "Вычислите $102^2 - 98^2$, используя формулу разности квадратов.",
+    "answer": "800",
+    "solution_md": "$102^2 - 98^2 = (102 + 98)(102 - 98) = 200 \\cdot 4 = 800$"
+  },
+  {
+    "topic_codifier_code": "mat.1.3",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Решите уравнение: $3x - 9 = 0$",
+    "answer": "3",
+    "solution_md": "**Шаг 1:** $3x = 9$\n\n**Шаг 2:** $x = 9 \\div 3 = 3$\n\nПроверка: $3 \\cdot 3 - 9 = 0$ ✓"
+  },
+  {
+    "topic_codifier_code": "mat.1.3",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Решите уравнение: $\\dfrac{x + 3}{2} = 5$",
+    "answer": "7",
+    "solution_md": "**Шаг 1:** Умножим обе части на 2:\n$x + 3 = 10$\n\n**Шаг 2:** $x = 10 - 3 = 7$"
+  },
+  {
+    "topic_codifier_code": "mat.1.3",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "Решите уравнение: $4(x - 3) = 2x + 2$",
+    "answer": "7",
+    "solution_md": "**Шаг 1:** Раскроем скобки: $4x - 12 = 2x + 2$\n\n**Шаг 2:** $4x - 2x = 2 + 12$\n\n**Шаг 3:** $2x = 14 \\Rightarrow x = 7$"
+  },
+  {
+    "topic_codifier_code": "mat.1.3",
+    "difficulty": 2,
+    "type": "multi_choice",
+    "statement_md": "Сколько корней имеет уравнение $x^2 + 6 = 0$?",
+    "options": "[\"0\", \"1\", \"2\", \"3\"]",
+    "answer": "0",
+    "solution_md": "$x^2 = -6$\n\nКвадрат числа всегда $\\geq 0$, поэтому $x^2 = -6$ не имеет решений в вещественных числах.\n\nДискриминант: $D = 0 - 4 \\cdot 1 \\cdot 6 = -24 < 0$ — корней нет."
+  },
+  {
+    "topic_codifier_code": "mat.1.3",
+    "difficulty": 3,
+    "type": "short_answer",
+    "statement_md": "Решите уравнение $x^2 - 7x + 12 = 0$. Запишите большее из корней.",
+    "answer": "4",
+    "solution_md": "**Шаг 1:** Дискриминант: $D = 49 - 48 = 1$\n\n**Шаг 2:** $x_{1,2} = \\dfrac{7 \\pm 1}{2}$\n\n$x_1 = 4, \\quad x_2 = 3$\n\nБольший корень: $4$"
+  },
+  {
+    "topic_codifier_code": "mat.1.3",
+    "difficulty": 3,
+    "type": "numeric",
+    "statement_md": "Решите систему уравнений:\n$$\\begin{cases} x + y = 8 \\\\ x - y = 2 \\end{cases}$$\nНайдите $x$.",
+    "answer": "5",
+    "solution_md": "**Метод сложения:** складываем уравнения:\n$2x = 10 \\Rightarrow x = 5$\n\nИз первого: $y = 8 - 5 = 3$\n\nПроверка: $5 + 3 = 8$ ✓, $5 - 3 = 2$ ✓"
+  },
+  {
+    "topic_codifier_code": "mat.1.4",
+    "difficulty": 1,
+    "type": "multi_choice",
+    "statement_md": "Неравенство $|x| < 4$ равносильно:",
+    "options": "[\"-4 < x < 4\", \"x > -4\", \"x < 4\", \"x > 4 или x < -4\"]",
+    "answer": "-4 < x < 4",
+    "solution_md": "$|x| < 4$ означает, что расстояние от $x$ до нуля меньше 4.\n\nЭто означает: $-4 < x < 4$"
+  },
+  {
+    "topic_codifier_code": "mat.1.4",
+    "difficulty": 2,
+    "type": "short_answer",
+    "statement_md": "Решите неравенство $3x - 6 < 0$ и запишите ответ в виде промежутка.",
+    "answer": "(-inf; 2)",
+    "solution_md": "**Шаг 1:** $3x < 6$\n\n**Шаг 2:** $x < 2$\n\nОтвет: $x \\in (-\\infty; 2)$"
+  },
+  {
+    "topic_codifier_code": "mat.1.4",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "Найдите количество целых чисел в решении неравенства $x^2 < 9$.",
+    "answer": "5",
+    "solution_md": "$x^2 < 9 \\Rightarrow -3 < x < 3$\n\nЦелые числа: $-2, -1, 0, 1, 2$\n\nВсего: **5**"
+  },
+  {
+    "topic_codifier_code": "mat.1.4",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "При каком наименьшем целом значении $x$ выполняется неравенство $2x + 1 > 7$?",
+    "answer": "4",
+    "solution_md": "$2x > 6 \\Rightarrow x > 3$\n\nНаименьшее целое, большее 3: $x = 4$"
+  },
+  {
+    "topic_codifier_code": "mat.1.5",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Найдите 6-й член арифметической прогрессии, если $a_1 = 3$, $d = 4$.",
+    "answer": "23",
+    "solution_md": "$a_n = a_1 + (n-1) \\cdot d$\n\n$a_6 = 3 + 5 \\cdot 4 = 3 + 20 = 23$"
+  },
+  {
+    "topic_codifier_code": "mat.1.5",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "Первый член геометрической прогрессии равен $2$, знаменатель равен $3$. Найдите $b_4$.",
+    "answer": "54",
+    "solution_md": "$b_n = b_1 \\cdot q^{n-1}$\n\n$b_4 = 2 \\cdot 3^3 = 2 \\cdot 27 = 54$"
+  },
+  {
+    "topic_codifier_code": "mat.1.5",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Найдите сумму первых 10 натуральных чисел.",
+    "answer": "55",
+    "solution_md": "$S_{10} = \\dfrac{(1 + 10) \\cdot 10}{2} = \\dfrac{110}{2} = 55$"
+  },
+  {
+    "topic_codifier_code": "mat.1.5",
+    "difficulty": 2,
+    "type": "multi_choice",
+    "statement_md": "В арифметической прогрессии $a_1 = 5$, $a_5 = 17$. Чему равна разность прогрессии?",
+    "options": "[\"3\", \"4\", \"2\", \"5\"]",
+    "answer": "3",
+    "solution_md": "$a_5 = a_1 + 4d$\n\n$17 = 5 + 4d$\n\n$4d = 12 \\Rightarrow d = 3$"
+  },
+  {
+    "topic_codifier_code": "mat.2.1",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Найдите значение функции $f(x) = x^2 - 4x + 3$ при $x = 5$.",
+    "answer": "8",
+    "solution_md": "$f(5) = 25 - 20 + 3 = 8$"
+  },
+  {
+    "topic_codifier_code": "mat.2.1",
+    "difficulty": 1,
+    "type": "short_answer",
+    "statement_md": "При каком значении $x$ функция $y = 3x - 9$ обращается в 0?",
+    "answer": "3",
+    "solution_md": "$3x - 9 = 0$\n\n$3x = 9 \\Rightarrow x = 3$"
+  },
+  {
+    "topic_codifier_code": "mat.2.1",
+    "difficulty": 1,
+    "type": "multi_choice",
+    "statement_md": "Область значений функции $y = x^2 + 2$ — это:",
+    "options": "[\"$y \\\\geq 2$\", \"$y > 0$\", \"все вещественные числа\", \"$y \\\\geq 0$\"]",
+    "answer": "$y \\geq 2$",
+    "solution_md": "Так как $x^2 \\geq 0$, то $x^2 + 2 \\geq 2$.\n\nМинимум функции $y = 2$ достигается при $x = 0$, значений меньше 2 не бывает."
+  },
+  {
+    "topic_codifier_code": "mat.2.1",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "Парабола $y = ax^2 - 4x + 1$ проходит через точку $(2; -3)$. Найдите $a$.",
+    "answer": "-1",
+    "solution_md": "Подставляем $x = 2$, $y = -3$:\n\n$-3 = a \\cdot 4 - 8 + 1$\n\n$-3 = 4a - 7$\n\n$4a = 4 \\Rightarrow a = -1$\n\nВетви параболы смотрят вниз."
+  },
+  {
+    "topic_codifier_code": "mat.2.1",
+    "difficulty": 2,
+    "type": "short_answer",
+    "statement_md": "Найдите координату $y$ точки пересечения графика $y = 2x - 8$ с осью $Oy$.",
+    "answer": "-8",
+    "solution_md": "На оси $Oy$ значение $x = 0$:\n\n$y = 2 \\cdot 0 - 8 = -8$"
+  },
+  {
+    "topic_codifier_code": "mat.2.2",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Найдите расстояние между точками $A(1; 2)$ и $B(4; 6)$.",
+    "answer": "5",
+    "solution_md": "$AB = \\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$"
+  },
+  {
+    "topic_codifier_code": "mat.2.2",
+    "difficulty": 2,
+    "type": "short_answer",
+    "statement_md": "Найдите координаты середины отрезка $AB$, где $A(-2; 4)$ и $B(6; -2)$.",
+    "answer": "(2; 1)",
+    "solution_md": "$M = \\left(\\dfrac{-2+6}{2}; \\dfrac{4+(-2)}{2}\\right) = (2; 1)$"
+  },
+  {
+    "topic_codifier_code": "mat.2.2",
+    "difficulty": 1,
+    "type": "multi_choice",
+    "statement_md": "Точка $M(3; -2)$ лежит в:",
+    "options": "[\"IV четверти\", \"I четверти\", \"II четверти\", \"III четверти\"]",
+    "answer": "IV четверти",
+    "solution_md": "В IV четверти $x > 0$ и $y < 0$.\n\nУ точки $M(3; -2)$: $x = 3 > 0$, $y = -2 < 0$. Значит, IV четверть."
+  },
+  {
+    "topic_codifier_code": "mat.3.1",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "В прямоугольном треугольнике катеты равны $6$ и $8$. Найдите гипотенузу.",
+    "answer": "10",
+    "solution_md": "По теореме Пифагора:\n\n$c = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$"
+  },
+  {
+    "topic_codifier_code": "mat.3.1",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Два угла треугольника равны $75°$ и $55°$. Найдите третий угол.",
+    "answer": "50",
+    "solution_md": "Сумма углов треугольника равна $180°$:\n\n$\\gamma = 180° - 75° - 55° = 50°$"
+  },
+  {
+    "topic_codifier_code": "mat.3.1",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "Основание равнобедренного треугольника равно $10$, боковая сторона $13$. Найдите высоту, проведённую к основанию.",
+    "answer": "12",
+    "solution_md": "Высота делит основание пополам. В прямоугольном треугольнике:\n\n$h = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$"
+  },
+  {
+    "topic_codifier_code": "mat.3.1",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Площадь треугольника с основанием $14$ и соответствующей высотой $6$.",
+    "answer": "42",
+    "solution_md": "$S = \\dfrac{1}{2} \\cdot a \\cdot h = \\dfrac{1}{2} \\cdot 14 \\cdot 6 = 42$"
+  },
+  {
+    "topic_codifier_code": "mat.3.1",
+    "difficulty": 3,
+    "type": "numeric",
+    "statement_md": "В прямоугольном треугольнике гипотенуза равна $17$, один катет равен $8$. Найдите второй катет.",
+    "answer": "15",
+    "solution_md": "$b = \\sqrt{c^2 - a^2} = \\sqrt{17^2 - 8^2} = \\sqrt{289 - 64} = \\sqrt{225} = 15$"
+  },
+  {
+    "topic_codifier_code": "mat.3.2",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Площадь прямоугольника со сторонами $7$ и $9$.",
+    "answer": "63",
+    "solution_md": "$S = a \\cdot b = 7 \\cdot 9 = 63$"
+  },
+  {
+    "topic_codifier_code": "mat.3.2",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Периметр квадрата равен $32$. Найдите его площадь.",
+    "answer": "64",
+    "solution_md": "**Шаг 1:** Сторона квадрата: $a = 32 \\div 4 = 8$\n\n**Шаг 2:** $S = 8^2 = 64$"
+  },
+  {
+    "topic_codifier_code": "mat.3.2",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "Найдите площадь трапеции с основаниями $7$ и $13$ и высотой $6$.",
+    "answer": "60",
+    "solution_md": "$S = \\dfrac{(a+b)}{2} \\cdot h = \\dfrac{(7 + 13)}{2} \\cdot 6 = 10 \\cdot 6 = 60$"
+  },
+  {
+    "topic_codifier_code": "mat.3.2",
+    "difficulty": 1,
+    "type": "multi_choice",
+    "statement_md": "Диагонали ромба:",
+    "options": "[\"перпендикулярны и делят друг друга пополам\", \"равны\", \"параллельны\", \"не пересекаются\"]",
+    "answer": "перпендикулярны и делят друг друга пополам",
+    "solution_md": "В ромбе диагонали перпендикулярны и делят друг друга пополам. Равны диагонали у прямоугольника."
+  },
+  {
+    "topic_codifier_code": "mat.3.2",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "В параллелограмме один угол равен $70°$. Найдите смежный с ним угол.",
+    "answer": "110",
+    "solution_md": "В параллелограмме смежные углы в сумме дают $180°$:\n\n$\\beta = 180° - 70° = 110°$"
+  },
+  {
+    "topic_codifier_code": "mat.4.1",
+    "difficulty": 1,
+    "type": "numeric",
+    "statement_md": "Найдите среднее арифметическое чисел: $4, 8, 6, 10, 7$.",
+    "answer": "7",
+    "solution_md": "$\\bar{x} = \\dfrac{4 + 8 + 6 + 10 + 7}{5} = \\dfrac{35}{5} = 7$"
+  },
+  {
+    "topic_codifier_code": "mat.4.1",
+    "difficulty": 1,
+    "type": "multi_choice",
+    "statement_md": "Вероятность того, что при подбрасывании монеты выпадет орёл:",
+    "options": "[\"0,5\", \"0,25\", \"1\", \"0\"]",
+    "answer": "0,5",
+    "solution_md": "Монета имеет два равновозможных исхода: орёл и решка.\n\n$P(\\text{орёл}) = \\dfrac{1}{2} = 0{,}5$"
+  },
+  {
+    "topic_codifier_code": "mat.4.1",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "В урне $4$ красных и $6$ синих шара. Один шар достают случайно. Найдите вероятность того, что он красный.",
+    "answer": "0.4",
+    "solution_md": "Всего шаров: $4 + 6 = 10$\n\n$P(\\text{красный}) = \\dfrac{4}{10} = 0{,}4$"
+  },
+  {
+    "topic_codifier_code": "mat.4.1",
+    "difficulty": 1,
+    "type": "short_answer",
+    "statement_md": "Найдите моду набора чисел: $3, 5, 3, 7, 3, 5, 8$.",
+    "answer": "3",
+    "solution_md": "Мода — наиболее часто встречающееся число.\n\nЧисло $3$ встречается $3$ раза, $5$ — $2$ раза, остальные — по 1 разу.\n\nМода = $3$"
+  },
+  {
+    "topic_codifier_code": "mat.4.1",
+    "difficulty": 2,
+    "type": "numeric",
+    "statement_md": "В классе $20$ учеников: $8$ отличников. Один ученик выбирается случайно. Найдите вероятность того, что выбранный ученик **не** отличник.",
+    "answer": "0.6",
+    "solution_md": "Не отличников: $20 - 8 = 12$\n\n$P(\\text{не отличник}) = \\dfrac{12}{20} = 0{,}6$"
+  }
+]
