@@ -26,3 +26,9 @@ dist
 # macOS
 .DS_Store
 
+# Internal docs (planning / review — not part of the deliverable)
+CLAUDE.md
+TASKS.md
+problems.md
+review.md
+
